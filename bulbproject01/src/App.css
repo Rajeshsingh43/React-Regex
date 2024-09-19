@@ -1,0 +1,30 @@
+.imageClass{
+  margin-left: 30rem;
+  height: 300px;
+  width: 200px;
+}
+body{
+  background-color: #262160;
+}
+.btnclickme{
+  /* margin-left: 5rem; */
+  padding: 20px 20px;
+  border:none;
+  font-size: 20px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: aliceblue;
+  color: black;
+}
+.btnnotclickme{
+  /* margin-left: 2rem; */
+  padding: 20px 20px;
+  border:none;
+  font-size: 20px;
+  width: 120px;
+  cursor: pointer;
+  border-radius: 30px;
+  background-color: aliceblue;
+  color: black;
+}

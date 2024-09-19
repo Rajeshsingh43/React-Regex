@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
+  crossorigin></script>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
+  crossorigin></script>
+
+<script>var Alert = ReactBootstrap.Alert;</script>
+  </body>
+</html>
+
+<!-- 
+import { Container, Row, Col } from 'react-bootstrap'
+import Form from 'react-bootstrap/Form';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import { Table } from 'react-bootstrap/Table';
+import './App.css'
+
+function App() {
+  const [Expenses, SetExpenses] = useState([])
+  const [Expensename, setExpensename] = useState("")
+  const [Expensamount, setExpenseamount] = useState("")
+
+
+
+
+  console.log(Expensename);
+
+  const handleAddExpense = () => {
+    if (Expensename && Expensamount) {
+      SetExpenses([...Expenses, { name: Expensename, amount: Expensamount }]);
+      setExpensename("");
+      setExpenseamount("");
+
+
+    }
+
+  }
+  console.log(Expenses);
+
+
+
+  return (
+
+    <>
+
+      {/*      
+    <Container fluid>
+    <Row >
+      <Col>
+          {/* <h1>Expense Tracker</h1>
+          <input type='text' className='me-3 g-5'
+          onChange={(e)=>setExpensename(e.target.value)}   
+          placeholder='Expensenumber'/>
+          <input type='text' className='me-3 g-5'
+          onChange={(e)=>setExpenseamount(e.target.value)} 
+          placeholder='ExpenseAmount'/> */}
+
+      {/* <Form>
+      <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+      <Form.Group className="mb-3" 
+        onChange={(e)=>setExpenseamount(e.target.value)} 
+      controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Example textarea</Form.Label>
+        <Form.Control as="textarea" rows={3} />
+      </Form.Group>
+    </Form> */}
+
+
+
+
+
+
+      {/* </Col>
+
+
+     
+
+      <button onClick={handleAddExpense}>Add Expense</button>
+      
+
+      <h2>
+        <ul>
+          {Expenses && 
+          Expenses.map((data,index)=>(
+            <li key ={index}>
+              {data.name}:{data.amount}
+            </li>
+          ))}
+        </ul>
+      </h2>
+
+    </Row>
+
+    </Container> */}
+
+
+      <div className='container'>
+        <h1 className='text-center mt-3'>Expense Tracker</h1>
+        <div>
+          <Form>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+              <Form.Label>Expense Number</Form.Label>
+              <Form.Control type="text" placeholder="Expense Number"
+                onChange={(e) => setExpensename(e.target.value)}
+              />
+            </Form.Group>
+            <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+              <Form.Label>Expense Amount</Form.Label>
+              <Form.Control type="number" placeholder="Expense Amount"
+                onChange={(e) => setExpenseamount(e.target.value)}
+              />
+
+            </Form.Group>
+          </Form>
+
+
+
+          <div className='text-center'></div>
+          <Button
+            variant="primary"
+
+            onClick={handleAddExpense}
+          >  Submit
+
+          </Button>{' '}
+        </div>
+        <Table striped bordered hover>
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Username</th>
+            </tr>
+          </thead>
+          <tbody>
+            {data && data.map(() => (
+
+
+
+              <> <tr>
+                <td>1</td>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Jacob</td>
+                  <td>Thornton</td>
+                  <td>@fat</td>
+                </tr>
+                <tr>
+                  <td>3</td>
+                  <td colSpan={2}>Larry the Bird</td>
+                  <td>@twitter</td>
+                </tr></>
+
+
+            ))}
+          </tbody>
+        </Table>
+      </div>
+
+    </>
+  );
+};
+
+export default App; -->
+
+
+
+ -->
